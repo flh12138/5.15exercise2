@@ -30,6 +30,8 @@ int main()
 	channels.at(1)= dst_G_Mat;
     channels.at(2)= dst_R_Mat;
 	merge(channels,dstMat);
+
+	//ÏÔÊ¾½á¹û
 	imshow("src", srcMat);
 	imshow("dst", dstMat);
 	waitKey(0);
